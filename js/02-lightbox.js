@@ -32,6 +32,7 @@ createGallery();
 document.addEventListener("DOMContentLoaded", () => {
   const lightbox = new SimpleLightbox(".gallery a.gallery__link", {
     captions: true,
-    captionDelay: 250,
+    captionDelay: 250,    
+    captionsData: "alt",
   });
 });
